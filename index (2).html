@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colegio San Isidro--web institucional</title>
+     <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+      <h1>Colegio San Isidro</h1>
+      <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#historia">Historia</a></li>
+          <li><a href="#materias">Materias</a></li>
+          <li><a href="#promos">Promociones</a></li>
+          <li><a href="#ubicacion">Ubicación</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+   <section id="inicio">
+    <h2>Bienvenidos al Colegio San Isidro</h2>
+    <p>Formando estudiantes con valores, compromiso y excelencia académica.</p>
+  </section>
+
+    <section id="historia">
+    <h2>Nuestra Historia</h2>
+    <p>
+      El Colegio San Isidro nació con el propósito de brindar una educación integral
+      basada en el respeto, la responsabilidad y el esfuerzo.
+    </p>
+    <p>
+      A lo largo de los años, hemos acompañado a generaciones de alumnos, adaptándonos
+      a los cambios del mundo moderno sin perder nuestros valores fundacionales.
+    </p>
+  </section>
+
+    <section id="materias">
+    <h2>Materias y Áreas de Aprendizaje</h2>
+    <ul>
+      <li>Lengua y Literatura</li>
+      <li>Matemática</li>
+      <li>Ciencias Naturales</li>
+      <li>Educación Física</li>
+      <li>Inglés</li>
+      <li>Informática y Programación</li>
+    </ul>
+  </section>
+
+   <section id="promos">
+    <h2>Promociones</h2>
+    <p>Celebramos a nuestros egresados con orgullo. ¡Felicitaciones Promoción 2025!</p>
+    <p>Podés ver sus proyectos y recuerdos en nuestras redes sociales oficiales.</p>
+    <div class="img">
+    <img src="c:\Users\PC\Downloads\WhatsApp Image 2025-10-17 at 11.37.50.jpeg"
+    width="50%"
+        height="500"
+        style="border:0; border-radius:10px;"
+        allowfullscreen=""
+        loading="lazy"
+      </iframe>
+    </img>
+  </section>
+
+    <section id="ubicacion">
+    <h2>Ubicación</h2>
+    <p>Nos encontramos en Córdoba, Argentina.</p>
+    <div style="text-align:center; margin-top:1rem;">
+    <iframe
+
+    src="https://www.google.com/maps?q=Córdoba,Argentina&output=embed"
+        width="90%"
+        height="300"
+        style="border:0; border-radius:10px;"
+        allowfullscreen=""
+        loading="lazy">
+      </iframe>
+    </div>
+  </section>
+
+   <section id="contacto">
+    <h2>Contacto</h2>
+    <form id="contactForm" onsubmit="handleSubmit(event)">
+      <input type="text" id="nombre" placeholder="Tu nombre">
+      <input type="email" id="email" placeholder="Tu correo electrónico">
+      <textarea id="mensaje" rows="5" placeholder="Escribí tu mensaje..."></textarea>
+      <button type="submit">Enviar</button>
+      <p id="status"></p>
+    </form>
+  </section>
+    
+  <footer>
+    <p>&copy; <span id="year"></span> Colegio San Isidro. Todos los derechos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
